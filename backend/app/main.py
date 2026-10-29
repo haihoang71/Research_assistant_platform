@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 
-app = FastAPI(title="EDU-09 Research Assistant Platform", version="0.1.0")
+app = FastAPI(title="Research Assistant Platform", version="0.1.0")
 
 
 @app.get("/health", tags=["system"])

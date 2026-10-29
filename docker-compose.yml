@@ -7,7 +7,7 @@ services:
       - "8000:8000"
     environment:
       APP_ENV: development
-      DATABASE_URL: postgresql://edu09:edu09@postgres:5432/edu09
+      DATABASE_URL: postgresql://research_assistant_platform:research_assistant_platform@postgres:5432/research_assistant_platform
       REDIS_URL: redis://redis:6379/0
     depends_on:
       postgres:
@@ -18,15 +18,15 @@ services:
   postgres:
     image: pgvector/pgvector:pg16
     environment:
-      POSTGRES_USER: edu09
-      POSTGRES_PASSWORD: edu09
-      POSTGRES_DB: edu09
+      POSTGRES_USER: research_assistant_platform
+      POSTGRES_PASSWORD: research_assistant_platform
+      POSTGRES_DB: research_assistant_platform
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U edu09 -d edu09"]
+      test: ["CMD-SHELL", "pg_isready -U research_assistant_platform -d research_assistant_platform"]
       interval: 5s
       timeout: 5s
       retries: 10

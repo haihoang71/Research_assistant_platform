@@ -1,4 +1,4 @@
-# Project goals
+# research_assistant_platform goals
 
 ## Primary goal
 

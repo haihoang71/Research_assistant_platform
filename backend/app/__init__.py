@@ -1,1 +1,1 @@
-"""EDU-09 backend application."""
+"""research_assistant_platform backend application."""

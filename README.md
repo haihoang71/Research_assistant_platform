@@ -1,4 +1,4 @@
-# EDU-09 — Research Assistant Platform
+# research_assistant_platform
 
 Evidence-grounded AI assistant for literature review, paper screening, structured extraction and research synthesis.
 

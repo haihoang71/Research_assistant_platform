@@ -1,4 +1,4 @@
-# EDU-09 implementation plan
+# research_assistant_platform implementation plan
 
 ## Phase 00 — Foundation
 

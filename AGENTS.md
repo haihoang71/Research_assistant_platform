@@ -1,8 +1,8 @@
-# AGENTS.md — EDU-09
+# AGENTS.md — research_assistant_platform
 
 ## Mission
 
-Build EDU-09, an evidence-grounded research assistant for literature discovery, screening, structured extraction and synthesis.
+Build research_assistant_platform, an evidence-grounded research assistant for literature discovery, screening, structured extraction and synthesis.
 
 ## Working rules
 
@@ -42,3 +42,16 @@ Priority order:
 3. `docs/01_BRIEF.md`
 4. `PLANS.md`
 5. Implementation and tests
+
+## Team roles
+
+The user is the Product Owner and has final approval over scope and trade-offs. Use the role files under `.codex/agents/` when a task needs a specific perspective:
+
+- `pm.md` — roadmap, prioritization, milestones and release decisions.
+- `ba.md` — requirements, user stories, acceptance criteria and edge cases.
+- `dev.md` — implementation, architecture and maintainable code.
+- `tester.md` — test strategy, regression risk and release verification.
+- `researcher.md` — literature workflow, evaluation methodology and AI quality.
+- `devops.md` — local runtime, CI, observability and deployment readiness.
+
+Every role must state assumptions, identify risks and avoid making changes outside its assigned scope.
